@@ -1,8 +1,2 @@
 [docker]
-192.168.10.211
-
-[docker:vars]
-ansible_ssh_user=jenkins
-ansible_ssh_pass=P@ssw0rd
-ansible_become_user=root
-ansible_become_pass=P@ssw0rd
+docker_host ansible_host=192.168.10.211
