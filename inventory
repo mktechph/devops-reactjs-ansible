@@ -1,1 +1,6 @@
+[docker]
 192.168.10.211
+
+[docker:vars]
+ansible_ssh_user: docker01
+ansible_ssh_password: P@ssw0rd
