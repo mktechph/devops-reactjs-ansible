@@ -1,2 +1,2 @@
 [docker]
-192.168.10.211 ansible_ssh_user=jenkins ansible_ssh_pass=P@ssw0rd
+192.168.10.211
