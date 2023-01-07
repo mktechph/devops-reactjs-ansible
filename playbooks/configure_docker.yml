@@ -1,6 +1,6 @@
 ---
 - hosts: docker_host
-  
+  become: true
   tasks:
     - name: Update package lists
       apt:
